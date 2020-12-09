@@ -1,11 +1,11 @@
 input.onPinPressed(TouchPin.P0, function () {
-    basic.showNumber(0)
+    basic.showIcon(IconNames.Heart)
 })
 input.onPinPressed(TouchPin.P2, function () {
-    basic.showNumber(2)
+    basic.showIcon(IconNames.Giraffe)
 })
 input.onPinPressed(TouchPin.P1, function () {
-    basic.showNumber(1)
+    basic.showIcon(IconNames.Happy)
 })
 basic.forever(function () {
 	
